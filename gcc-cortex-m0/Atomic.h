@@ -8,7 +8,9 @@
 #ifndef ATOMIC_H_
 #define ATOMIC_H_
 
-#include "AtomicCommon.h"
+#include "../gcc-cortex-common/AtomicCommon.h"
+
+#include <stdint.h>
 
 namespace home {
 
